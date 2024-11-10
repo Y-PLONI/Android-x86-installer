@@ -23,7 +23,7 @@ sysinfo = { version = "0.32.0", features = ["system"] }
 winapi = {}
 
 [target.'cfg(target_os = "linux")'.dependencies]
-libc = {}
+libc = "0.2"
 
 [features]
 # by default Tauri runs in production mode
